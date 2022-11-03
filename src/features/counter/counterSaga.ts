@@ -16,5 +16,4 @@ export default function* counterSaga() {
 
   yield takeEvery(incrementSaga.toString(), handleIncrementSaga); // action bao nhiêu lần thì chạy bấy nhiêu lần
   // yield takeLatest(incrementSaga.toString(), handleIncrementSaga); // action bao nhiêu lần thì nó sẽ cancel những lần trước đó và chạy ông cuối
-
 }
